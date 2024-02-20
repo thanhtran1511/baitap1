@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.baitap1 {
+    height: 350px;
+    position: relative;
+}
+
+.baitap1>span {
+    color: white;
+    background-color: rgb(96, 116, 180);
+    padding: 10px 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-600%);
+    position: absolute;
+}
+
+.baitap1 h1 {
+    color:  black;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.baitap1 h1 span {
+    color:  aqua;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.baitap1 h4 {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 0 10px;
+}
